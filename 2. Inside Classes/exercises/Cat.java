@@ -33,11 +33,17 @@ public class Cat {
 	public static void main(String[] args) {
 		/* Do the following things without changing the Cat class */
 
+		Cat tommy = new Cat("tommy");
 		// 1. Make the Cat meow
+		tommy.meow();
 		
 		// 2. Get the Cat to print it's name
+		tommy.printName();
 
 		// 3. Kill the Cat!
+		tommy.lives = 1;
+		tommy.kill();
+		
 
 	}
 }

@@ -25,7 +25,7 @@ public class Duck {
 	/* Methods: functionality */
 	
 	void waddle() {
-		lifeExpectancy++;
+		lifeExpectancy++; 
 		System.out.println(this.name + " is waddling");
 	}
 
